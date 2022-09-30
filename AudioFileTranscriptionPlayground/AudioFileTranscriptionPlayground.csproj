@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+		<Version>0.0.0.1</Version>
 		<TargetFramework>net7.0-windows</TargetFramework>
 		<OutputType>WinExe</OutputType>
 		<Platforms>AnyCPU;ARM32;ARM64;x64;x86</Platforms>
@@ -9,6 +10,9 @@
 		<Title>$(AssemblyName)</Title>
 		<Company>Shkyrockett</Company>
 		<Copyright>Copyright © $(Company) 2020 - 2022</Copyright>
+		<Description>A project for playing around with Windows Voice to Text API to transcribe audio files.</Description>
+		<PackageProjectUrl>https://github.com/Shkyrockett/AudioFileTranscriptionPlayground</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Shkyrockett/AudioFileTranscriptionPlayground</RepositoryUrl>
 		<OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
 		<DocumentationFile>$(OutputPath)$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 	</PropertyGroup>
